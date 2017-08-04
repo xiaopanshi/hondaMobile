@@ -45,7 +45,7 @@ a{
 
 .container{
 	background: url(../img/yage_bg.jpg)  no-repeat;
-	background-size: 100%;
+	background-size: 100% 100%;
 	width: 100%;
 	padding-bottom: 2rem;
 	color: #fff;
@@ -62,15 +62,19 @@ a{
 	text-align: 
 }
 
+.banner_car{
+	margin-top: 48%;
+}
+
 /*第二部分*/
 .user_number{
 	margin: 120% auto 0 auto;
-	width:90%;
+	/*width:90%;*/
 	text-align: center;
 
 }
 .user_number img{
-	width: 60%;
+	width: 55%;
 	margin: auto;
 }
 .user_number_p {
@@ -88,33 +92,38 @@ a{
 	margin-top: 2rem;
     background: url(../img/video_iframe.png) no-repeat;
     background-size: 100%;
-    margin: 6% 3rem 6%;
+    margin: 6% 8% 6%;
     position: relative;
     display: inline-block;
-    height: 23rem;
+    height: 26rem;
     width: 84%;
 }
 .video .video_img{
 	width: 95%;
-    margin: 6.2% 2% 7%;
+    margin: 4.2% 2% 7%;
     display: inline-block;
 }
 .video .video_p{
 	position: absolute;
-    top: 38%;
+    top: 35%;
     left: 42%;
     width: 16%;
     z-index: 2;
 }
 .video .m_video{
-    width: 100%;
     height: 100%;
     display: inline-block;
     position: absolute;
     top: 9%;
-    left: 0;
+    left: 1.5%;
+    width: 93%;
+    margin: 0 2% 7%;
+    overflow: hidden;
 }
-.video .m_video video{}
+.video .m_video video{
+	width: 100%;
+	height: 71%;
+}
 .video .circle_p{
 	position: absolute;
 	width: 40%;
@@ -124,7 +133,7 @@ a{
 
 /*第四部分*/
 .activity_introduction{
-	margin-top: 3rem;
+	
 }
 .img_head{
 	width: 40%;
@@ -132,13 +141,13 @@ a{
 }
 .act_intr_icon{
 	padding-left:9%;
-	margin-top: -8%; 
+	margin-top: -13%; 
 }
 .activity_introduction .act_intr_head{
 	font-size: 3rem;
 	color: #f10536;
 	font-weight: bold;
-	margin-top: 3rem;
+	margin-top: 1rem;
 	padding: 0 5% 0 9%;
 	/*width: 82%;*/
 	line-height: 100%;
@@ -148,6 +157,14 @@ a{
 }
 .activity_introduction .act_intr_head p:first-child{
 	font-size: 3.5rem;
+	background: url(../img/star1.png) -14% -18% no-repeat;
+    background-size: 46% 72%;
+    padding-top: 2rem;
+}
+.activity_introduction .act_intr_head p:last-child{
+	background: url(../img/star2.png) 25% 108% no-repeat;
+    background-size: 62% 87%;
+    padding-bottom: 2rem;
 }
 .activity_introduction .act_intr_head i{
 	background: url(../img/yinhao2.png) no-repeat;
@@ -167,11 +184,11 @@ a{
     width: 1.5rem;
     height: 1.5rem;
     position: absolute;
-    -webkit-transform: translateY(50%);
+   /* -webkit-transform: translateY(50%);
 	-moz-transform: translateY(50%);
 	-ms-transform: translateY(50%);
 	-o-transform: translateY(50%);
-	transform: translateY(50%);
+	transform: translateY(50%);*/
 }
 .activity_introduction .act_intr_p1,.act_intr_p2{
 	font-size: 1.6rem;
@@ -220,7 +237,7 @@ a{
 	width: 82%;
 	margin: auto;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	padding-top: 5.5rem;
 	padding-bottom: 3rem;
 }
@@ -238,7 +255,6 @@ a{
 	font-size: 1.3rem;
 }
 .intelligent_mission p{
-	margin-top: 1rem;
 	margin-bottom: 0.5rem;
 	text-align: center;
 }
@@ -247,11 +263,15 @@ a{
 }
 .intelligent_mission img{
 	width: 50%;
-	margin: auto;
+    margin: 2.5rem auto 0 auto;
 }
 .intelligent_mission ul{
-	width: 95%;
-	margin: auto;
+	width: 80%;
+    padding-left: 0.5rem;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 .intelligent_mission ul:after{
 	clear: both;
@@ -265,7 +285,7 @@ a{
 	padding-left:4%;
 	background:url(../img/icon1.png) left no-repeat;
 	background-size: contain;
-	margin-right: 1%;
+	margin-right: 2%;
 }
 
 
@@ -311,11 +331,156 @@ a{
 	font-size: 0;
 	display: block;
 }
+
+
+.particate_step{
+	/*width: 99%;*/
+	margin: 1rem auto 0 auto;
+	position: relative;
+}
+.particate_step .act_icon5{
+	height: 24rem;
+	margin: auto;
+	/*width: 3%;*/
+}
+.particate_step h4 span{
+	color: #ff0000;
+	font-size: 2rem;
+	padding-right: 0.4rem;
+}
+.particate_step h4{
+	font-size: 1.25rem;
+}
+.particate_step .public_style{
+	position: absolute;
+	border-bottom: 1px solid #fff;
+	line-height: 2.3rem;
+}
+.particate_step .step1{
+	right: 50.6%;
+	top: 2.9rem;
+	padding-right: 0.5rem;
+	padding-left: 2rem;
+}
+.particate_step .step2{
+	left: 50.6%;
+	top: 6.5rem;
+	/*padding-right: 0.5rem;*/
+	padding-left: 2.5rem;
+}
+.particate_step .step2 p{
+	bottom: -2.5rem;
+	font-size: 1.1rem;
+}
+.particate_step .step3{
+	right: 50.6%;
+	top: 10rem;
+	padding-right: 5%;
+	padding-left: 9%;
+}
+.particate_step .step3 p{
+	/*bottom: -4rem;*/
+	bottom: -3.9rem;
+	margin-left: -2rem;
+    padding-right: 5%;
+    font-size: 1.1rem;
+}
+.particate_step .step4{
+	left: 50.6%;
+	top: 15rem;
+	padding-right: 3.5rem;
+	padding-left: 2.5rem;
+}
+.particate_step .step4 p{
+	bottom: -2.8rem;
+    font-size: 1.1rem;
+}
+
+.particate_step .public_style div{
+	position: relative;
+}
+.particate_step .icon_circle{
+	background: url(../img/act_icon6.png) bottom no-repeat;
+	background-size: contain; 
+	height: 0.7rem;
+	width: 0.7rem;
+	position: absolute;
+	bottom: 0;
+	left: -0.35rem;
+	-webkit-transform: translateY(50%);
+	-moz-transform: translateY(50%);
+	-ms-transform: translateY(50%);
+	-o-transform: translateY(50%);
+	transform: translateY(50%);
+}
+.particate_step .icon_right{
+	background: url(../img/act_icon6.png) bottom no-repeat;
+	background-size: contain; 
+	height: 0.7rem;
+	width: 0.7rem;
+	position: absolute;
+	bottom: 0;
+	right: -0.35rem;
+	-webkit-transform: translateY(50%);
+	-moz-transform: translateY(50%);
+	-ms-transform: translateY(50%);
+	-o-transform: translateY(50%);
+	transform: translateY(50%);
+}
+.particate_step .icon_common{
+	width: 2rem;
+	height: 2rem;
+	line-height: 2.3rem;
+	position: absolute;
+	-webkit-transform: translateX(-100%);
+	-moz-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+	-o-transform: translateX(-100%);
+	transform: translateX(-100%);
+}
+.particate_step .icon_step1{
+	background: url(../img/act_icon3.png) bottom no-repeat;
+	background-size: 80% 80%;
+}
+.particate_step .icon_step2{
+	background: url(../img/act_icon2.png) bottom no-repeat;
+	background-size: 80% 80%;
+}
+.particate_step .icon_step3{
+	background: url(../img/act_icon4.png) bottom no-repeat;
+	background-size: 80% 80%;
+}
+.particate_step .icon_step4{
+	background: url(../img/act_icon1.png) bottom no-repeat;
+	background-size: 80% 80%;
+}
+.particate_step p{
+	position: absolute;
+	line-height: 100%;
+	bottom: -2.5rem;
+	color: #c9c9c9;
+}
+.particate_step{
+	position: relative;
+}
+.particate_part {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	-webkit-transform: translate(-50%,90%);
+	-moz-transform: translate(-50%,90%);
+	-ms-transform: translate(-50%,90%);
+	-o-transform: translate(-50%,90%);
+	transform: translate(-50%,90%);
+}
 .particate_part .btn_part{
 	text-align: center;
 	font-size: 1.5rem;
 	color: #0f171f;
 	/*line-height: 4rem;*/
+	width: 11rem;
+    /*height: 3rem;*/
+    line-height: 3rem;
 	margin: auto;
 	position: relative;
 	z-index: 2;
@@ -329,12 +494,11 @@ a{
 	-ms-transform: translate(-50%,-50%);
 	-o-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
-	width: 31%;
 	z-index: -1;
 }
 /*第八部分*/
 .sign_up {
-	margin-top: 19rem;
+	margin-top: 23rem;
 	padding-bottom: 3rem;
 }
 .liuzi{
@@ -343,11 +507,23 @@ a{
 	font-size: 1.3rem;
 	position: relative;
 	margin-top: 3rem;
-	padding-bottom: 3rem;
+	padding-bottom: 12rem;
+    /*margin-bottom: 6rem;*/
 }
 .liuzi .liuzi_name{
 	position: relative;
-	padding-top: 14%;
+	padding-top: 12%;
+}
+.liuzi .liuzi_name .input_sex{
+	position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.liuzi .liuzi_name .input_sex input[type="radio"]{
+	width: 18px;
+    height: 18px;
+    opacity: 0;
+    cursor: pointer;
 }
 .liuzi .liuzi_name i{
 	background: url(../img/imfo_icon1.png) center no-repeat;
@@ -367,8 +543,9 @@ a{
 	background-size: 1.5rem;
 	position: absolute;
 	bottom: 0;
+	z-index: 1;
 }
-.liuzi .liuzi_name .woman_icon{
+.liuzi_name .woman_icon{
 	background: url(../img/imfo_icon7.png) center no-repeat;
 	background-size: 1.5rem;
 	position: absolute;
@@ -397,7 +574,7 @@ a{
 	background: url(../img/imfo_icon4.png) center no-repeat;
 	background-size: 1.5rem;
 	position: absolute;
-	left: -13%;
+	left: -15%;
 	bottom: 0;
 }
 
@@ -417,8 +594,9 @@ a{
 	border: 1px solid #fff;
 	color: #fff;
 	height: 2.5rem;
-	padding-left: 1rem;
+	text-align: center;
 	font-size: 1.3rem;
+	border-radius: 0;
 }
 .liuzi input::-webkit-input-placeholder { /* WebKit browsers */ 
 	color: #fff; 
@@ -434,7 +612,7 @@ a{
 }
 
 .liuzi_tel{
-	margin: 2rem 0 2rem 16%;
+	margin: 1.5rem 0 1.5rem 16%;
 }
 .liuzi_tel .input_tel{
 	width: 90%;
@@ -444,7 +622,7 @@ a{
 	border: 1px solid #fff;
 	/*font-size: 0.75rem;*/
 	box-sizing: border-box;
-	margin-bottom: 2rem;
+	margin-bottom: 1.5rem;
 	/*margin-left: 16%;*/
 	width: 36%;
 	/*margin-right: 2%;*/
@@ -500,54 +678,148 @@ a{
 	z-index: 2;
 	opacity: 0;
 }
-.liuzi_shop{
-	margin: 2rem 0 2rem 16%;
+.liuzi_shop_ad {
+	margin: 0 0 0 16%;
 	/*width: 100%;*/
 	position: relative;
+	display: inline-block;
+	width:76%;
 }
-.liuzi_shop input{
-	width:90%;
+.liuzi_shop_ad p{
 
-}
-.liuzi_shop p{
-	width:90%;
-	color: #d71d0d;
 	font-size: 1.3rem;
 	padding-left: 0.5rem;
 }
+.liuzi_shop{
+	margin: 0 0 1.5rem 16%;
+	/*width: 100%;*/
+	position: relative;
+	display: inline-block;
+	width:76%;
+}
+.sign_up .liuzi_shop input{
+	/*width:90%;*/
+}
+.sign_up .liuzi_shop .checkbox{
+	position: relative;
+    bottom: 0.15rem;
+    left: 0.38rem;
+}
+.liuzi_shop p{
+	/*width:90%;*/
+	color: #d71d0d;
+	font-size: 1.2rem;
+	padding-left: 0.5rem;
+}
+.liuzi_shop p a{
+	display: inline-block;
+}
+
 .liuzi .imfo_icon5{
 	background: url(../img/imfo_icon8.png) center no-repeat;
 	background-size: 2rem;
 	position: absolute;
-	left: -13%;	
+	left: -14%;	
 }
-/*.liuzi .location{
+.liuzi .location{
 	position: absolute;
-	bottom: 0;
+	bottom: 6rem;
 	left: 50%;
-	-webkit-transform: translate(-50%,-50%);
-	-moz-transform: translate(-50%,-50%);
-	-ms-transform: translate(-50%,-50%);
-	-o-transform: translate(-50%,-50%);
-	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,70%);
+	-moz-transform: translate(-50%,70%);
+	-ms-transform: translate(-50%,70%);
+	-o-transform: translate(-50%,70%);
+	transform: translate(-50%,70%);
 }
-.liuzi .location img{
-	width: 31%;
-}*/
+
 
 /*第九部分*/
 .go_home{
-	margin-top: 20%;
-	padding-bottom: 3%;
+	/*margin-top: 31%;*/
+	margin-top: 14rem;
+    /*padding-bottom: 4%;*/
+    margin-bottom: 3rem;
 }
 .go_home img{
 	margin: auto;
-	width: 5%;
+	width: 4%;
 	padding-bottom: 1rem;
+}
+.go_home p{
+	font-size: 1.3rem;
+	font-weight: bold;
 }
 .red_iframe{
 	width: 20%;
 	margin: auto;
 	height: 0.75rem;
 	border-bottom: 0.2rem solid #d41507;
+}
+
+.menu_1{
+	position: fixed;
+    right: 1%;
+    top: -5.8%;
+    z-index: 2;
+    width: 17%;
+}
+.menuall{
+	position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background: rgba(0,0,0,0.8);
+    width:100%;
+    height: 100%;
+    display: none;
+}
+.menuall .menubg{
+	background: url(../img/menu_bg.png) repeat;
+	width: 50%;
+    height: 100%;
+    float: right;
+    border-left: 1px solid #5b090f;
+    position: relative;
+}
+.menuall .menubg .menu{
+	width: 83%;
+    height: 88%;
+    position: relative;
+    display: INLINE-BLOCK;
+    margin-top: 5rem;
+}
+.menuall .menubg .menu .menu_z{
+	position: absolute;
+    right: 0;
+    width: 5%;
+}
+.menuall .menubg .menu .menu_y{
+	display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-right: 2rem;
+}
+.menuall .menubg .menu .menu_y span{
+	display: inline-block;
+    width: 100%;
+    text-align: right;
+    color: #ff171f;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.menuall .menubg .menu .menu_y span.tit{
+	font-size: 1.6rem;
+    color: #fff;
+}
+.menuall .menubg .menu .homepage{
+	padding-top: 9rem;
+}
+.menuall .menubg .menu .activity{
+	padding-top: 10rem;
+}
+.menuall .menubg .menu .challenge{
+	padding-top: 10rem;
+}
+.hide{
+	display:none;
 }
