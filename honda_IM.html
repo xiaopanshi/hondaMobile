@@ -3,20 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-	<link rel="stylesheet" href="css/honda_Im.css">
+	<link rel="stylesheet" href="mobile/css/honda_Im.css">
 	<title>极限挑战赛</title>
 </head>
 <body>
 	<div class="container">
 
 		<!-- 第一部分 -->
-		<div class="yage_logo">
-			<img src="img/honda_logo.png" >
+		<div class="yage_logo" id="homepage">
+			<a href="/"><img src="mobile/img/honda_logo.png" ></a>
+		</div>
+		
+		<div class="banner_car">
+			<img src="mobile/img/banner_car.png">
 		</div>
 
 		<!-- 第二部分 -->
 		<div class="user_number">
-			<img src="img/logo1.png">
+			<img src="mobile/img/logo1.png">
 			<div class="user_number_p">
 				<p>2017年5月，雅阁在中国销量已突破200万辆！</p>
 				<p>新雅阁 锐·混动汇聚Honda前瞻科技，</p>
@@ -27,29 +31,31 @@
 
 		<!-- 第三部分 -->
 		<div class="video" style="text-align:center">
-			<img class="video_img" src="img/video_img.png" />
-			<img class="video_p video_b" src="img/video_b.png" />
-			<img class="video_p video_g hide" src="img/video_b.png" />
+			<img class="video_img" src="mobile/img/video_img.png" />
+			<img class="video_p video_b" src="mobile/img/video_b.png" />
+			<img class="video_p video_g hide" src="mobile/img/video_b.png" />
 			<div class="m_video hide">
 				<video id="video1" src="video/test.mp4"></video>
 			</div>
-			<img class="circle_p" src="img/circle_point_icon.png">
+			<img class="circle_p" src="mobile/img/circle_point_icon.png">
 		</div>
 
 		<!-- 第四部分 -->
 		<div class="activity_introduction">
-			<img src="img/activity_intr.png" class="img_head">
+			<img src="mobile/img/activity_intr.png" class="img_head" id="activity">
 			<div class="act_intr_head">
 				<p><i></i>INTELLIGENT MISSION</p>
 				<p>雅阁极限挑战赛&nbsp;<em></em></p>
 			</div>
-			<img src="img/act_intr_icon.png" class="act_intr_icon">
+			<img src="mobile/img/act_intr_icon.png" class="act_intr_icon">
 			<div class="act_intr_p1">
-				<p>面向全国权威媒体/业内大咖、精英用户发出邀请，参与新雅阁 锐·混动实车极限挑战！</p>
-				<p>是驾驭，更是玩心！新雅阁 锐·混动的极限实证数据，等你来刷新！</p>
+				<p>是驾驭，更是玩心！</p>
+				<p>新雅阁&nbsp;锐·混动实证挑战邀约，等你来应战！</p>
+				<p>更有机会与权威媒体、车界大咖同堂竞技，见证一箱油续航极限距离！</p>
 			</div>
 			<div class="act_intr_p2">
-				<p><em></em>挑战实证数据<i></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="bottom_border">TOP1</span>更可获得新雅阁&nbsp;锐·混动<span>5年免费使用权</span>。</p>
+				<p><em></em>即刻报名参赛, <i></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="bottom_border">TOP1</span>更可获得新雅阁&nbsp;
+					</br>锐·混动<span>5年免费使用权</span>。</p>
 			</div>
 		</div>
 
@@ -65,14 +71,16 @@
 
 		<!-- 第六部分 -->
 		<div class="intelligent_mission">
-			<img src="img/intelligent_misson.png">
+			<img src="mobile/img/intelligent_misson.png">
 			<p>全国划分为6大区域</p>
 			<ul>
-				<li>华北区</li>
-				<li>华中区</li>
-				<li>华东区</li>
-				<li>华南区</li>
-				<li>东北区</li>
+				<li>华北区域</li>
+				<li>华中区域</li>
+				<li>华东区域</li>
+			</ul>
+			<ul>
+				<li>华南区域</li>
+				<li>东北区域</li>
 				<li>西部区域</li>
 			</ul>
 			<p>进行用户挑战，各区域TOP1晋级总决赛</p>
@@ -84,23 +92,59 @@
 				<h3><i></i>活动参与方式<em></em></h3>
 			</div>
 			<div class="particate_step">
-				<img src="img/participate.png">
+				<!-- <img src="mobile/img/participate.png"> -->
+				<img src="mobile/img/act_icon5.png" class="act_icon5">
+				<div class="step1 public_style">
+					<i class="icon_circle"></i>
+					<div>
+						<h4><i class="icon_step1 icon_common"></i><span>step1</span>官网留资报名</h4>
+					</div>
+
+				</div>
+				<div class="step2 public_style">
+					<i class="icon_right"></i>
+					<div>
+						<h4><i class="icon_step2 icon_common"></i><span>step2</span>参与特约店活动</h4>
+					</div>
+					<p>即可获得区域晋级赛推荐资格</p>
+				</div>
+				<div class="step3 public_style">
+					<i class="icon_circle"></i>
+					<div>
+						<h4><i class="icon_step3 icon_common"></i><span>step3</span>区域晋级赛</h4>
+					</div>
+					<p>特约店推荐精英用户至区域参加区域晋级赛，各区域TOP1晋级总决赛</p>
+				</div>
+				<div class="step4 public_style">
+					<i class="icon_right"></i>
+					<div>
+						<h4><i class="icon_step4 icon_common"></i><span>step4</span>总决赛</h4>
+					</div>
+					<p>与权威媒体/业内大咖、车界名人进行巅峰对决</p>
+				</div>
 				<div class="particate_part">
-					<a href="##" class="btn_part">立即报名<img src="img/icon_confirm.png"></a>
+					<a href="##" class="btn_part">立即报名<img src="mobile/img/icon_confirm.png"></a>
 				</div>
 			</div>
 		</div>
 		
 		<!-- 第八部分 -->
 		<div class="sign_up">
-			<img src="img/sign_up.png" class="img_head">
+			<img src="mobile/img/sign_up.png" class="img_head" id="challenge">
 			<div class="liuzi">
-				<div class="liuzi_name"><i></i><input type="text" class="input_name" placeholder="您的姓名"><img src="img/imfo_icon5.png"><em class="man_icon"></em><span>先生</span><em class="woman_icon"></em><span>女士</span></div>
-				<div class="liuzi_tel"><i class="liuzi_icon imfo_icon2"></i><input type="number" class="input_tel" placeholder="您的联系电话"></div>
+				<input type="hidden" id="hdSeriesID" value="A71A2B15-DFC8-41B6-AF34-935E2A87DE60" />
+				<input id="hdActivityCode" value="1-107494026" type="hidden" />
+				<div class="liuzi_name">
+					<i></i>
+					<input type="text" class="input_name" placeholder="您的姓名" id="txtName"><img src="mobile/img/imfo_icon5.png">
+					<em class="man_icon woman_icon"><input type="radio" checked="checked" name="sex" value="男" class="input_sex "></em><span>先生</span>
+					<em class="woman_icon" ><input type="radio" name="sex" value="女" class="input_sex"></em><span>女士</span>
+				</div>
+				<div class="liuzi_tel"><i class="liuzi_icon imfo_icon2"></i><input type="number" id="txtMobile" class="input_tel" placeholder="您的联系电话"></div>
 				<i class="liuzi_icon imfo_icon3"></i>
 				<div class="simulateSelect magin_left float_left " id="test-province">
 					<input type="text" name="" id="" value="" placeholder="您所在的省份" />
-					<select name="">
+					<select name=" " id="optProvinceMap">
 						<option value="">您所在的省份</option>
 						<option value="1">上海</option>
 						<option value="2">南京</option>
@@ -111,28 +155,62 @@
 				</div>
 				<div class="simulateSelect float_right">
 					<input type="text" name="" id="" value="" placeholder="您所在的城市" />
-					<select name="">
+					<select name="" id="optCityMap">
 						<option value="">您所在的城市</option>
 						<option value="1">1</option>
 						<option value="2">2</option>
 					</select>
 				</div>
-				<div class="liuzi_shop"><i class="liuzi_icon imfo_icon4"></i><input type="text"  placeholder="经销商"></div>
-				<div class="liuzi_shop"><i class="liuzi_icon imfo_icon5"></i><p>我同意《用户信息保护及对策声明》，信息保密，不对外公开。</p></div>
+				<div class="simulateSelect liuzi_shop">
+					<i class="liuzi_icon imfo_icon4"></i>
+					<input type="text" name="" id="" value="" placeholder="经销商">
+					<select name="" id="optDealer">
+						<option value="">您所在的城市</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+					</select>
+				</div>
+				<div class="liuzi_shop_ad"><p>特约店地址:&nbsp;&nbsp;<span id="txtAddress"></span></p></div>
+				<div class="liuzi_shop">
+					<i class="liuzi_icon imfo_icon5"><input id="declaration_ckb" type="checkbox" value="checkbox" checked="checked" class="checkbox"></i>
+					<p>本人同意 <a href="/information-protection">《用户信息保护及对策声明》</a>；广汽本田将对您提交的个人信息保密，不对外公开。</p>
+				</div>
 				<div class="particate_part location">
-					<a href="##" class="btn_part">确认提交<img src="img/icon_confirm.png"></a>
+					<a id="sex_btnSubmit"  class="btn_part">确认提交<img src="mobile/img/icon_confirm.png"></a>
 				</div>
 			</div>
 		</div>
 
 		<!-- 第九部分  -->
 		<div class="go_home text-align">
-			<img src="img/back_icon.png">
+			<a href="#"><img src="mobile/img/back_icon.png">
 			<p>返回首页</p>
-			<p class="red_iframe">GO&nbsp;HOME</p>
+			<p class="red_iframe">GO&nbsp;HOME</p></a>
 		</div>
+		
+		<!-- 菜单  -->
+		<!-- <img class="menu_1" src="mobile/img/menu_1.png" />
+		<div class="menuall">
+			<div class="menubg">
+				<div class="menu">
+					<img class="menu_z" src="mobile/img/menu_z.png" />
+					<a href="#homepage" class="homepage menu_y">
+						<span class="tit">首页</span>
+						<span>HOME</span>
+					</a>
+					<a href="#activity" class="activity menu_y">
+						<span class="tit">活动介绍</span>
+						<span>INTRODUCE</span>
+					</a>
+					<a href="#challenge" class="challenge menu_y">
+						<span class="tit">报名挑战 </span>
+						<span>SIGN UP</span>
+					</a>
+				</div>
+			</div>
+		</div> -->
 	</div>
 </body>
-<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-<script type="text/javascript" src="js/honda_lm.js"></script>
+<script type="text/javascript" src="mobile/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="mobile/js/honda_lm.js"></script>
 </html>

@@ -21,7 +21,39 @@ common.m_video = function() {
 	})
 	
 }
+common.simulateSelect = function(){
+	$(".simulateSelect").find("select").on("change",function(){
+		var $this = $(this),
+			$input = $this.siblings("input"),
+			$value = $this.find("option:selected").html();
+		$input.val($value)
+	})
+	
+}
+common.toggle_icon = function() {
+	$(".woman_icon").on("click", function() {
+		$(".woman_icon").removeClass("man_icon");
+		$(this).addClass("man_icon");
+
+	})
+
+}
+
+common.menu = function() {
+	$(".menu_1").on("click", function() {
+		//$(".menuall").removeClass("hide");
+		$(".menuall").toggle();
+	})
+	$(".menu_y").on("click", function() {
+		$(".menuall").hide();
+	})
+
+}
+
 
 $(function(){
 	common.m_video();     //移动端视频
+	common.simulateSelect();
+	common.toggle_icon();
+	common.menu();
 })
